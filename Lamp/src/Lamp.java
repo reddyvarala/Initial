@@ -3,6 +3,11 @@ public class Lamp {
 
 	private boolean ison =false;
 	
+	private int x;
+	int y;
+	int z;
+	private double m;
+	
 	public Lamp(boolean ison) {
 		
 		this.ison = ison;
